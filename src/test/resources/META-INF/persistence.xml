@@ -3,6 +3,7 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
              version="2.1">
     <persistence-unit name="test" transaction-type="RESOURCE_LOCAL">
-
+        <class>entity.UsersEntity</class>
+        <class>entity.PurchaseEntity</class>
     </persistence-unit>
 </persistence>

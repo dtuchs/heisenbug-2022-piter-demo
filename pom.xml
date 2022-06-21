@@ -14,16 +14,23 @@
     </properties>
 
     <dependencies>
+        <!-- https://github.com/dtuchs/4-class-infra/tree/main/orm-all  -->
         <dependency>
             <groupId>com.dtuchs.libs</groupId>
             <artifactId>orm-all</artifactId>
             <version>1.0.1</version>
         </dependency>
+
+        <!-- https://github.com/dtuchs/4-class-infra/tree/main/spring-jdbc-all  -->
+
         <dependency>
             <groupId>com.dtuchs.libs</groupId>
             <artifactId>spring-jdbc-all</artifactId>
             <version>1.0.1</version>
         </dependency>
+
+        <!-- https://github.com/dtuchs/4-class-infra/tree/main/selenium-all  -->
+
         <dependency>
             <groupId>com.dtuchs.libs</groupId>
             <artifactId>selenium-all</artifactId>
